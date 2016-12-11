@@ -1,0 +1,52 @@
+[Mon Nov 14 06:15:10.953686 2016] [wsgi:error] [pid 2760:tid 139831492269824] [client 87.10.244.241:41488] mod_wsgi (pid=2760): Exception occurred processing WSGI script '/home/hareesh/Desktop/veriday/veriday/wsgi.py'.
+[Mon Nov 14 06:15:10.953891 2016] [wsgi:error] [pid 2760:tid 139831492269824] [client 87.10.244.241:41488] IOError: failed to write data
+[Mon Nov 14 07:15:04.399926 2016] [wsgi:error] [pid 2760:tid 139831384471296] [client 46.116.37.79:46384] mod_wsgi (pid=2760): Exception occurred processing WSGI script '/home/hareesh/Desktop/veriday/veriday/wsgi.py'.
+[Mon Nov 14 07:15:04.400113 2016] [wsgi:error] [pid 2760:tid 139831384471296] [client 46.116.37.79:46384] IOError: failed to write data
+[Mon Nov 14 08:31:49.464484 2016] [wsgi:error] [pid 2760:tid 139831350900480] [client 50.150.113.60:52936] mod_wsgi (pid=2760): Exception occurred processing WSGI script '/home/hareesh/Desktop/veriday/veriday/wsgi.py'.
+[Mon Nov 14 08:31:49.464658 2016] [wsgi:error] [pid 2760:tid 139831350900480] [client 50.150.113.60:52936] IOError: failed to write data
+[Mon Nov 14 12:43:05.768377 2016] [wsgi:error] [pid 2760:tid 139831250188032] [client 1.9.181.57:37411] mod_wsgi (pid=2760): Exception occurred processing WSGI script '/home/hareesh/Desktop/veriday/veriday/wsgi.py'.
+[Mon Nov 14 12:43:05.768621 2016] [wsgi:error] [pid 2760:tid 139831250188032] [client 1.9.181.57:37411] IOError: failed to write data
+[Mon Nov 14 14:11:02.603515 2016] [wsgi:error] [pid 2760:tid 139831225009920] [client 60.51.77.130:35254] mod_wsgi (pid=2760): Exception occurred processing WSGI script '/home/hareesh/Desktop/veriday/veriday/wsgi.py'.
+[Mon Nov 14 14:11:02.603688 2016] [wsgi:error] [pid 2760:tid 139831225009920] [client 60.51.77.130:35254] IOError: failed to write data
+[Thu Nov 17 02:15:08.603013 2016] [wsgi:error] [pid 1205:tid 139967225165568] [client 94.102.49.102:14257] mod_wsgi (pid=1205): Exception occurred processing WSGI script '/home/hareesh/Desktop/veriday/veriday/wsgi.py'.
+[Thu Nov 17 02:15:08.630095 2016] [wsgi:error] [pid 1205:tid 139967225165568] [client 94.102.49.102:14257] IOError: failed to write data
+[Thu Nov 17 03:46:15.447517 2016] [wsgi:error] [pid 1205:tid 139967145703168] [client 47.151.21.138:51516] mod_wsgi (pid=1205): Exception occurred processing WSGI script '/home/hareesh/Desktop/veriday/veriday/wsgi.py'.
+[Thu Nov 17 03:46:15.447757 2016] [wsgi:error] [pid 1205:tid 139967145703168] [client 47.151.21.138:51516] IOError: failed to write data
+[Thu Nov 17 18:15:25.939969 2016] [wsgi:error] [pid 1234:tid 140417869817600] [client 212.186.224.208:50884] mod_wsgi (pid=1234): Exception occurred processing WSGI script '/home/hareesh/Desktop/veriday/veriday/wsgi.py'.
+[Thu Nov 17 18:15:25.966079 2016] [wsgi:error] [pid 1234:tid 140417869817600] [client 212.186.224.208:50884] IOError: failed to write data
+[Mon Nov 21 01:23:31.843434 2016] [wsgi:error] [pid 3296:tid 140672443078400] [client 73.177.26.22:60425] mod_wsgi (pid=3296): Exception occurred processing WSGI script '/home/hareesh/Desktop/veriday/veriday/wsgi.py'.
+[Mon Nov 21 01:23:31.853546 2016] [wsgi:error] [pid 3296:tid 140672443078400] [client 73.177.26.22:60425] IOError: failed to write data
+[Mon Nov 21 17:20:38.959860 2016] [wsgi:error] [pid 1258:tid 140144546678528] [client 60.54.72.193:48086] mod_wsgi (pid=1258): Exception occurred processing WSGI script '/home/hareesh/Desktop/veriday/veriday/wsgi.py'.
+[Mon Nov 21 17:20:38.993823 2016] [wsgi:error] [pid 1258:tid 140144546678528] [client 60.54.72.193:48086] IOError: failed to write data
+[Mon Nov 21 17:48:10.674549 2016] [wsgi:error] [pid 1257:tid 140144555071232] [client 210.186.230.194:40351] mod_wsgi (pid=1257): Exception occurred processing WSGI script '/home/hareesh/Desktop/veriday/veriday/wsgi.py'.
+[Mon Nov 21 17:48:10.674816 2016] [wsgi:error] [pid 1257:tid 140144555071232] [client 210.186.230.194:40351] IOError: failed to write data
+[Tue Nov 22 02:33:16.961315 2016] [wsgi:error] [pid 6756:tid 140333109696256] [client 80.82.65.212:33534] mod_wsgi (pid=6756): Exception occurred processing WSGI script '/home/hareesh/Desktop/veriday/veriday/wsgi.py'.
+[Tue Nov 22 02:33:16.990085 2016] [wsgi:error] [pid 6756:tid 140333109696256] [client 80.82.65.212:33534] IOError: failed to write data
+[Thu Nov 24 16:30:41.903943 2016] [wsgi:error] [pid 1213:tid 139741582952192] [client 176.65.89.98:47050] mod_wsgi (pid=1213): Exception occurred processing WSGI script '/home/hareesh/Desktop/veriday/veriday/wsgi.py'.
+[Thu Nov 24 16:30:41.934358 2016] [wsgi:error] [pid 1213:tid 139741582952192] [client 176.65.89.98:47050] IOError: failed to write data
+[Fri Nov 25 13:40:48.049317 2016] [wsgi:error] [pid 10569:tid 140446067902208] [client 211.72.155.116:60018] mod_wsgi (pid=10569): Exception occurred processing WSGI script '/home/hareesh/Desktop/veriday/veriday/wsgi.py'.
+[Fri Nov 25 13:40:48.061346 2016] [wsgi:error] [pid 10569:tid 140446067902208] [client 211.72.155.116:60018] IOError: failed to write data
+[Fri Nov 25 15:04:31.247629 2016] [wsgi:error] [pid 10569:tid 140446059509504] [client 2.236.141.230:33227] mod_wsgi (pid=10569): Exception occurred processing WSGI script '/home/hareesh/Desktop/veriday/veriday/wsgi.py'.
+[Fri Nov 25 15:04:31.247899 2016] [wsgi:error] [pid 10569:tid 140446059509504] [client 2.236.141.230:33227] IOError: failed to write data
+[Sat Nov 26 05:18:56.802758 2016] [wsgi:error] [pid 1260:tid 140207932307200] [client 27.105.104.2:49050] mod_wsgi (pid=1260): Exception occurred processing WSGI script '/home/hareesh/Desktop/veriday/veriday/wsgi.py'.
+[Sat Nov 26 05:18:56.832752 2016] [wsgi:error] [pid 1260:tid 140207932307200] [client 27.105.104.2:49050] IOError: failed to write data
+[Sat Nov 26 22:50:24.098485 2016] [wsgi:error] [pid 1259:tid 140540402521856] [client 67.237.44.35:50300] mod_wsgi (pid=1259): Exception occurred processing WSGI script '/home/hareesh/Desktop/veriday/veriday/wsgi.py'.
+[Sat Nov 26 22:50:24.112396 2016] [wsgi:error] [pid 1259:tid 140540402521856] [client 67.237.44.35:50300] IOError: failed to write data
+[Sun Nov 27 16:35:27.266345 2016] [wsgi:error] [pid 1285:tid 140026294515456] [client 79.140.29.74:52486] mod_wsgi (pid=1285): Exception occurred processing WSGI script '/home/hareesh/Desktop/veriday/veriday/wsgi.py'.
+[Sun Nov 27 16:35:27.274730 2016] [wsgi:error] [pid 1285:tid 140026294515456] [client 79.140.29.74:52486] IOError: failed to write data
+[Sun Nov 27 22:46:38.613246 2016] [wsgi:error] [pid 7335:tid 140026184718080] [client 108.178.131.62:60476] mod_wsgi (pid=7335): Exception occurred processing WSGI script '/home/hareesh/Desktop/veriday/veriday/wsgi.py'.
+[Sun Nov 27 22:46:38.613453 2016] [wsgi:error] [pid 7335:tid 140026184718080] [client 108.178.131.62:60476] IOError: failed to write data
+[Mon Nov 28 03:12:26.533529 2016] [wsgi:error] [pid 7334:tid 140026201503488] [client 216.218.184.4:57659] mod_wsgi (pid=7334): Exception occurred processing WSGI script '/home/hareesh/Desktop/veriday/veriday/wsgi.py'.
+[Mon Nov 28 03:12:26.533839 2016] [wsgi:error] [pid 7334:tid 140026201503488] [client 216.218.184.4:57659] IOError: failed to write data
+[Tue Nov 29 03:16:36.575308 2016] [wsgi:error] [pid 1256:tid 140691339306752] [client 216.218.184.4:55775] mod_wsgi (pid=1256): Exception occurred processing WSGI script '/home/hareesh/Desktop/veriday/veriday/wsgi.py'.
+[Tue Nov 29 03:16:36.835770 2016] [wsgi:error] [pid 1256:tid 140691339306752] [client 216.218.184.4:55775] IOError: failed to write data
+[Wed Nov 30 16:22:46.696149 2016] [wsgi:error] [pid 1259:tid 140564339091200] [client 109.226.15.9:42905] mod_wsgi (pid=1259): Exception occurred processing WSGI script '/home/hareesh/Desktop/veriday/veriday/wsgi.py'.
+[Wed Nov 30 16:22:46.704512 2016] [wsgi:error] [pid 1259:tid 140564339091200] [client 109.226.15.9:42905] IOError: failed to write data
+[Thu Dec 01 05:07:34.001909 2016] [wsgi:error] [pid 1255:tid 140151225317120] [client 66.215.20.190:40895] mod_wsgi (pid=1255): Exception occurred processing WSGI script '/home/hareesh/Desktop/veriday/veriday/wsgi.py'.
+[Thu Dec 01 05:07:34.014924 2016] [wsgi:error] [pid 1255:tid 140151225317120] [client 66.215.20.190:40895] IOError: failed to write data
+[Thu Dec 01 06:21:11.379083 2016] [wsgi:error] [pid 1256:tid 140151225317120] [client 169.56.71.34:60486] mod_wsgi (pid=1256): Exception occurred processing WSGI script '/home/hareesh/Desktop/veriday/veriday/wsgi.py'.
+[Thu Dec 01 06:21:11.379394 2016] [wsgi:error] [pid 1256:tid 140151225317120] [client 169.56.71.34:60486] IOError: failed to write data
+[Thu Dec 01 13:55:05.623921 2016] [wsgi:error] [pid 1985:tid 140151208531712] [client 104.198.168.209:47782] mod_wsgi (pid=1985): Exception occurred processing WSGI script '/home/hareesh/Desktop/veriday/veriday/wsgi.py'.
+[Thu Dec 01 13:55:05.624096 2016] [wsgi:error] [pid 1985:tid 140151208531712] [client 104.198.168.209:47782] IOError: failed to write data
+[Sun Dec 04 04:55:52.790268 2016] [wsgi:error] [pid 3964:tid 139626089248512] [client 88.149.209.8:48309] mod_wsgi (pid=3964): Exception occurred processing WSGI script '/home/hareesh/Desktop/veriday/veriday/wsgi.py'.
+[Sun Dec 04 04:55:52.794881 2016] [wsgi:error] [pid 3964:tid 139626089248512] [client 88.149.209.8:48309] IOError: failed to write data

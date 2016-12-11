@@ -1,0 +1,90 @@
+
+{% load staticfiles %}
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="{% static 'documents/style.css' %}" />
+
+<style type="text/css">
+
+	body {
+	    padding-top: 20px;
+	    padding-right: 20px;
+	    padding-bottom: 20px;
+	    padding-left: 20px;
+	}
+	/*** The Essential Code ***/
+
+	.column {
+		float: left;
+	}
+
+	#center {
+		width: 90%;
+	}
+
+	#header {
+		font-size: 20px;
+		text-align: center;
+		background: #ddd;
+	}
+
+	.column {
+		padding-top: 1em;
+		text-align: justify;
+	}
+
+	ul#formlist li {
+    display:inline;
+	}
+
+</style>
+
+
+<body>
+
+	<div id="header">
+		<span style="display:inline-block; width: 100px;"></span>
+		<b>Sentiment:
+		<font color = 'F23756'>Negative,</font>
+		<font color = '60AB1E'>Positive</font>
+		<span style="display:inline-block; width: 100px;"></span></b> 
+		<b>Named Entities:
+		<font color = '0101DF'>Organization,</font> 
+		<font color = 'DCCA0C'>Person,</font>
+		<font color = '5F076B'>Location</font>
+		<span style="display:inline-block; width: 200px;"></span></b> 
+	</div>
+
+	<div id="center" class="column">	
+  	<form method="get" class="form-style-1" id="highlighterform">
+  		<ul class="form-style-1" id="formlist">
+  		<p>Classification by {{ classifier }}</p>	<br>
+  		<textarea rows="10" cols="150" name="text" form="highlighterform" class="form-style-1">{{text}}
+  		</textarea><br><br>
+			<li><input type="radio" name="classifier" value="TextBlob_Lexicon" checked> TextBlob Lexicon </li><span style="display:inline-block; width: 20px;"></span>
+  			<li><input type="radio" name="classifier" value="TextBlob_Naive_Bayes"> TextBlob Naive Bayes </li><span style="display:inline-block; width: 20px;"></span>
+  			<li><input type="radio" name="classifier" value="NLTK_VADER"> NLTK VADER </li><span style="display:inline-block; width: 20px;"></span>
+  			<li><input type="radio" name="classifier" value="CoreNLP"> CoreNLP </li><span style="display:inline-block; width: 20px;"></span>
+  			<li>
+			<select name="threshold" value="Threshold"><span style="display:inline-block; width: 20px;"></span>
+			    <option value="0.0">Default</option>
+			    <option value="0.1">0.1</option>
+			    <option value="0.3">0.3</option>
+			    <option value="0.5">0.5</option>
+			    <option value="0.7">0.7</option>
+			    <option value="0.9">0.9</option>
+			</select></li><span style="display:inline-block; width: 20px;"></span>
+		 	<li><input type="submit" class="btn" value="Highlight" name="highlighter"></li><span style="display:inline-block; width: 200px;"></span><br><br>
+		<p style="text-align:justify; width: 100%;	padding: 10 200px" >
+		{% autoescape off %}
+		{{ htext }}
+		{% endautoescape %}
+		</p>
+		</ul>
+
+	</form>	
+
+	</div>
+
+
+
+</body>
