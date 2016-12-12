@@ -17,18 +17,18 @@ Python packages: textblob, nltk, ner
 Download and extract the CoreNLP Jar files for <a href="http://nlp.stanford.edu/software/stanford-english-corenlp-2016-10-31-models.jar"> Sentiment</a> and for <a href="http://nlp.stanford.edu/software/stanford-ner-2015-12-09.zip">NER</a>
 
 ### Running
-Two servers need to be running in the background for CoreNLP to function. 
+Two servers need to be running in the background for CoreNLP to function. <br>
 <code>
-cd stanford-english-corenlp-2016-10-31-models/
-java -mx5g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer 
-
-cd stanford-ner-2015-12-09
-java -mx1000m -cp "stanford-ner.jar:lib/*" edu.stanford.nlp.ie.NERServer -loadClassifier classifiers/english.all.3class.distsim.crf.ser.gz -port 9191
+cd stanford-english-corenlp-2016-10-31-models/ <br>
+java -mx5g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer <br>
+<br>
+cd stanford-ner-2015-12-09 <br>
+java -mx1000m -cp "stanford-ner.jar:lib/*" edu.stanford.nlp.ie.NERServer -loadClassifier classifiers/english.all.3class.distsim.crf.ser.gz -port 9191 <br>
 </code>
 
-Once this is done, start the django app by executing the following commands:
+Once this is done, start the django app by executing the following commands: <br>
 <code>
-cd sentimentapp/
-python manage.py runserver
+cd sentimentapp/<br>
+python manage.py runserver<br>
 </code>
 
