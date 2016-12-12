@@ -18,17 +18,13 @@ Download and extract the CoreNLP Jar files for <a href="http://nlp.stanford.edu/
 
 ### Running
 Two servers need to be running in the background for CoreNLP to function. <br>
-<code>
-cd stanford-english-corenlp-2016-10-31-models/ <br>
-java -mx5g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer <br>
-<br>
-cd stanford-ner-2015-12-09 <br>
-java -mx1000m -cp "stanford-ner.jar:lib/*" edu.stanford.nlp.ie.NERServer -loadClassifier classifiers/english.all.3class.distsim.crf.ser.gz -port 9191 <br>
-</code>
+<div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%">cd stanford-english-corenlp-2016-10-31-models/ 
+java -mx5g -cp &quot;*&quot; edu.stanford.nlp.pipeline.StanfordCoreNLPServer 
+cd stanford-ner-2015-12-09 
+java -mx1000m -cp &quot;stanford-ner.jar:lib/*&quot; edu.stanford.nlp.ie.NERServer -loadClassifier classifiers/english.all.3class.distsim.crf.ser.gz -port 9191 
+</pre></div>
 
 Once this is done, start the django app by executing the following commands: <br>
-<code>
-cd sentimentapp/<br>
-python manage.py runserver<br>
-</code>
-
+<div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%">cd sentimentapp/
+python manage.py runserver
+</pre></div>
